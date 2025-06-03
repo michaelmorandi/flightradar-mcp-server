@@ -1,0 +1,14 @@
+[project]
+name = "radar-mcp"
+version = "0.1.0"
+description = "An MCP server that provides access to ADS-B flight data through the Flight Radar API"
+authors = [{name = "Michael M"}]
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp==2.6.1",
+    "httpx==0.28.1",
+    "python-dotenv",
+]
+
+[tool.uv]
+dev-dependencies = []
