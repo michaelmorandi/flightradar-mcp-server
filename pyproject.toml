@@ -5,10 +5,10 @@ description = "An MCP server that provides access to ADS-B flight data through t
 authors = [{name = "Michael M"}]
 requires-python = ">=3.10"
 dependencies = [
-    "fastmcp==2.14.2",
+    "fastmcp==4.1.4",
     "httpx==0.28.1",
     "python-dotenv",
 ]
 
-[tool.uv]
-dev-dependencies = []
+[dependency-groups]
+dev = []
